@@ -1,0 +1,1 @@
+print("LiftOCR GUI Entry Point.")

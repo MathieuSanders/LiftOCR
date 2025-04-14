@@ -1,0 +1,5 @@
+preprocessor: ocr.modules.preprocess.basic.BasicPreprocessor
+segmenter: ocr.modules.segment.default.DefaultSegmenter
+recognizer: ocr.modules.recognize.knn.KNNRecognizer
+postprocessor: ocr.modules.postprocess.basic.BasicPostprocessor
+output: ocr.modules.output.text.TextOutput

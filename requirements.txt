@@ -1,0 +1,6 @@
+opencv-python
+numpy
+scikit-learn
+pillow
+pyyaml
+pytest

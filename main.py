@@ -1,0 +1,1 @@
+print("LiftOCR CLI Entry Point.")

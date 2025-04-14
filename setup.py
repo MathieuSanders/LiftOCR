@@ -1,0 +1,1 @@
+# Setup configuration for LiftOCR
