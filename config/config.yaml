@@ -1,5 +1,23 @@
+# config.yaml
+
+# This configuration file controls which modules are used
+# in each step of the LiftOCR pipeline.
+
+# Use full Python import paths to locate each class.
+# These paths are relative to the project root.
+
 preprocessor: ocr.modules.preprocess.basic.BasicPreprocessor
 segmenter: ocr.modules.segment.default.DefaultSegmenter
-recognizer: ocr.modules.recognize.knn.KNNRecognizer
+recognizer: ocr.modules.recognize.template.TemplateRecognizer
 postprocessor: ocr.modules.postprocess.basic.BasicPostprocessor
 output: ocr.modules.output.text.TextOutput
+
+# Output directory for saving OCR results
+output_path: output/
+
+# Future configuration options could include:
+# - Logging level
+# - Image input settings
+# - Output format (txt, json, etc.)
+# - Language settings
+# - Error handling preferences
