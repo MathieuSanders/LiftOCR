@@ -32,7 +32,6 @@ def load_config():
 def test_pipeline():
     """Run pipeline and check output is non-empty."""
 
-    # Load sample image (provide your own test image path)
     test_image_path = "data/test_image.jpg"
     assert os.path.exists(test_image_path), f"Test image not found: {test_image_path}"
 
@@ -40,7 +39,13 @@ def test_pipeline():
 
     preprocessor = load_class(config["preprocessor"])()
     segmenter = load_class(config["segmenter"])()
-    recognizer = load_class(config["recognizer"])()
+
+    recognizer_class = load_class(config["recognizer"])
+    recognizer_kwargs = {}
+    if recognizer_class.__name__ == "ModelRecognizer":
+        recognizer_kwargs["engine"] = config.get("recognizer_engine", "easyocr")
+    recognizer = recognizer_class(config, **recognizer_kwargs)
+
     postprocessor = load_class(config["postprocessor"])()
 
     image = cv2.imread(test_image_path)

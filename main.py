@@ -39,17 +39,21 @@ def main():
 
     preprocessor = load_class(config["preprocessor"])()
     segmenter = load_class(config["segmenter"])()
-    recognizer = load_class(config["recognizer"])()
+
+    # Recognizer supports engine configuration (for ML-based recognizers)
+    recognizer_class = load_class(config["recognizer"])
+    recognizer_kwargs = {}
+    if recognizer_class.__name__ == "ModelRecognizer":
+        recognizer_kwargs["engine"] = config.get("recognizer_engine", "easyocr")
+    recognizer = recognizer_class(config, **recognizer_kwargs)
+
     postprocessor = load_class(config["postprocessor"])()
     output_module = load_class(config["output"])()
 
     image_path = args.input
-
     print("[LiftOCR] Loading image:", image_path)
 
-    # Lazy import cv2 only if running pipeline
     import cv2
-
     image = cv2.imread(image_path)
 
     processed = preprocessor.process(image)

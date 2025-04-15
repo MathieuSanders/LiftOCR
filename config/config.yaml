@@ -13,9 +13,8 @@ preprocessor: ocr.modules.preprocess.basic.BasicPreprocessor
 segmenter: ocr.modules.segment.default.DefaultSegmenter
 
 # Recognition step
-recognizer: ocr.modules.recognize.template.TemplateRecognizer
-recognizer_templates_path: templates/   # Folder with template images (A.png, B.png, etc.)
-recognizer_threshold: 0.80              # Minimum match score (0.0 to 1.0)
+recognizer: ocr.modules.recognize.model.ModelRecognizer
+recognizer_engine: easyocr  # Options: easyocr, tesseract
 
 # Postprocessing step
 postprocessor: ocr.modules.postprocess.basic.BasicPostprocessor
@@ -25,5 +24,4 @@ output: ocr.modules.output.text.TextOutput
 output_path: output/   # Folder to save OCR result .txt files
 
 # Optional future configuration options
-# - Logging level (DEBUG, INFO, WARNING, ERROR)
 log_level: INFO
