@@ -6,18 +6,24 @@
 # Use full Python import paths to locate each class.
 # These paths are relative to the project root.
 
+# Preprocessing step
 preprocessor: ocr.modules.preprocess.basic.BasicPreprocessor
+
+# Segmentation step
 segmenter: ocr.modules.segment.default.DefaultSegmenter
+
+# Recognition step
 recognizer: ocr.modules.recognize.template.TemplateRecognizer
+recognizer_templates_path: templates/   # Folder with template images (A.png, B.png, etc.)
+recognizer_threshold: 0.80              # Minimum match score (0.0 to 1.0)
+
+# Postprocessing step
 postprocessor: ocr.modules.postprocess.basic.BasicPostprocessor
+
+# Output step
 output: ocr.modules.output.text.TextOutput
+output_path: output/   # Folder to save OCR result .txt files
 
-# Output directory for saving OCR results
-output_path: output/
-
-# Future configuration options could include:
-# - Logging level
-# - Image input settings
-# - Output format (txt, json, etc.)
-# - Language settings
-# - Error handling preferences
+# Optional future configuration options
+# - Logging level (DEBUG, INFO, WARNING, ERROR)
+log_level: INFO
