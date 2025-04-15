@@ -45,15 +45,13 @@ class BaseSegmenter(ABC):
 class BaseRecognizer(ABC):
     """Abstract base class for all recognizers."""
 
+    def __init__(self, config):
+        self.config = config
+
     @abstractmethod
     def recognize(self, segments):
-        """Recognize characters from image segments.
-        Args:
-            segments: List of image segments
-        Returns:
-            Recognized string of text
-        """
         pass
+
 
 
 class BasePostprocessor(ABC):

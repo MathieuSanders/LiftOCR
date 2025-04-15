@@ -1,55 +1,51 @@
-from ocr.core.module_base import BaseModule
-
-# Optional - Choose your engine
-# import easyocr
-# import pytesseract
-# import cv2
+from ocr.core.module_base import BaseRecognizer
 
 
-class ModelRecognizer(BaseModule):
+class ModelRecognizer(BaseRecognizer):
     """
     ML-Based Recognizer for LiftOCR
 
     Configuration YAML Example:
 
-    recognize:
-      type: model
-      engine: easyocr
+    recognizer: ocr.modules.recognize.model.ModelRecognizer
+    recognizer_engine: easyocr
     """
 
-    def __init__(self, config):
+    def __init__(self, config, engine="easyocr"):
         super().__init__(config)
-        self.engine = config.get("engine", "easyocr")
+        self.engine = engine
 
         # Initialize your ML OCR engine
         if self.engine == "easyocr":
             import easyocr
             self.reader = easyocr.Reader(["en"])
+
         elif self.engine == "tesseract":
             import pytesseract
             self.reader = pytesseract
+
         else:
             raise ValueError(f"Unknown OCR engine: {self.engine}")
 
-    def execute(self, image):
+    def recognize(self, segments):
         """
-        Perform OCR on the provided image.
+        Perform OCR on the provided segments (list of images).
 
-        :param image: Input image (numpy array or filepath)
+        :param segments: List of images (numpy arrays)
         :return: Extracted text (string)
         """
 
-        # EasyOCR example
-        if self.engine == "easyocr":
-            results = self.reader.readtext(image, detail=0)
-            return " ".join(results)
+        results = []
 
-        # Tesseract example
-        elif self.engine == "tesseract":
-            import cv2
-            import pytesseract
-            gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-            text = pytesseract.image_to_string(gray)
-            return text
+        for image in segments:
+            if self.engine == "easyocr":
+                text = self.reader.readtext(image, detail=0)
+                results.append(" ".join(text))
 
-        return ""
+            elif self.engine == "tesseract":
+                import cv2
+                gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+                text = self.reader.image_to_string(gray)
+                results.append(text.strip())
+
+        return "\n".join(results)
