@@ -3,37 +3,42 @@
 
  Directory of C:\Code\git\LiftOCR
 
-04/14/2025  10:47 AM    <DIR>          .
-04/14/2025  09:02 AM    <DIR>          ..
+04/15/2025  03:13 PM    <DIR>          .
+04/15/2025  02:04 PM    <DIR>          ..
 04/14/2025  08:00 AM                16 .gitignore
 04/14/2025  10:08 AM    <DIR>          .pytest_cache
-04/14/2025  09:40 AM    <DIR>          config
+04/15/2025  04:21 PM    <DIR>          config
+04/15/2025  09:57 AM             1,906 CONTRIBUTING.md
 04/14/2025  10:06 AM    <DIR>          data
+04/15/2025  10:49 AM    <DIR>          docs
 04/14/2025  09:59 AM    <DIR>          gui
-04/14/2025  10:46 AM    <DIR>          LiftOCR.egg-info
-04/14/2025  10:47 AM                 0 list.txt
-04/14/2025  09:49 AM             1,962 main.py
-04/14/2025  10:45 AM    <DIR>          ocr
-04/14/2025  10:42 AM             2,797 README.md
-04/14/2025  10:29 AM                27 requirements.txt
-04/14/2025  10:20 AM               597 setup.py
-04/14/2025  10:08 AM    <DIR>          tests
-               6 File(s)          5,399 bytes
+04/14/2025  10:50 AM    <DIR>          LiftOCR.egg-info
+04/15/2025  04:23 PM                 0 list.txt
+04/15/2025  01:03 PM             2,223 main.py
+04/14/2025  10:50 AM    <DIR>          ocr
+04/15/2025  02:59 PM    <DIR>          output
+04/15/2025  04:20 PM             3,623 README.md
+04/15/2025  01:04 PM                69 requirements.txt
+04/15/2025  09:54 AM             2,386 ROADMAP.md
+04/15/2025  01:13 PM               686 setup.py
+04/15/2025  01:04 PM    <DIR>          tests
+04/15/2025  04:08 PM    <DIR>          tools
+               8 File(s)         10,909 bytes
 
  Directory of C:\Code\git\LiftOCR\.git
 
-04/14/2025  10:47 AM    <DIR>          ..
-04/14/2025  10:42 AM                37 COMMIT_EDITMSG
+04/15/2025  03:13 PM    <DIR>          ..
+04/15/2025  01:11 PM                69 COMMIT_EDITMSG
 04/14/2025  08:02 AM               304 config
 04/11/2025  08:47 AM                73 description
 04/11/2025  08:48 AM                21 HEAD
 04/11/2025  08:47 AM    <DIR>          hooks
-04/14/2025  10:42 AM             1,612 index
+04/15/2025  01:53 PM             4,837 index
 04/11/2025  08:47 AM    <DIR>          info
 04/14/2025  08:01 AM    <DIR>          logs
-04/14/2025  10:42 AM    <DIR>          objects
+04/15/2025  01:11 PM    <DIR>          objects
 04/14/2025  08:02 AM    <DIR>          refs
-               5 File(s)          2,047 bytes
+               5 File(s)          5,304 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\hooks
 
@@ -63,9 +68,9 @@
  Directory of C:\Code\git\LiftOCR\.git\logs
 
 04/14/2025  08:01 AM    <DIR>          .
-04/14/2025  10:42 AM             3,390 HEAD
-04/14/2025  08:01 AM    <DIR>          refs
-               1 File(s)          3,390 bytes
+04/15/2025  01:11 PM             4,562 HEAD
+04/14/2025  08:02 AM    <DIR>          refs
+               1 File(s)          4,562 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\logs\refs
 
@@ -79,8 +84,8 @@
 
 04/14/2025  08:01 AM    <DIR>          .
 04/14/2025  08:02 AM    <DIR>          ..
-04/14/2025  10:42 AM             3,390 main
-               1 File(s)          3,390 bytes
+04/15/2025  01:11 PM             4,562 main
+               1 File(s)          4,562 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\logs\refs\remotes
 
@@ -93,44 +98,64 @@
 
 04/14/2025  08:02 AM    <DIR>          .
 04/14/2025  08:02 AM    <DIR>          ..
-04/14/2025  10:42 AM             2,730 main
-               1 File(s)          2,730 bytes
+04/15/2025  01:11 PM             3,640 main
+               1 File(s)          3,640 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects
 
-04/14/2025  10:42 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          .
 04/14/2025  10:02 AM    <DIR>          00
+04/14/2025  10:52 AM    <DIR>          03
+04/14/2025  10:52 AM    <DIR>          09
+04/15/2025  01:11 PM    <DIR>          0a
 04/14/2025  09:50 AM    <DIR>          0b
 04/14/2025  09:56 AM    <DIR>          0c
-04/14/2025  09:39 AM    <DIR>          0f
+04/14/2025  10:52 AM    <DIR>          0f
 04/14/2025  09:40 AM    <DIR>          11
 04/14/2025  09:54 AM    <DIR>          13
+04/15/2025  09:58 AM    <DIR>          14
 04/14/2025  10:02 AM    <DIR>          15
 04/14/2025  09:49 AM    <DIR>          16
-04/14/2025  09:50 AM    <DIR>          1a
-04/14/2025  08:01 AM    <DIR>          1d
+04/14/2025  10:52 AM    <DIR>          18
+04/14/2025  10:52 AM    <DIR>          1a
+04/14/2025  10:52 AM    <DIR>          1c
+04/14/2025  10:52 AM    <DIR>          1d
 04/14/2025  09:50 AM    <DIR>          25
-04/14/2025  09:56 AM    <DIR>          27
-04/14/2025  09:57 AM    <DIR>          2e
+04/14/2025  10:52 AM    <DIR>          27
+04/15/2025  01:11 PM    <DIR>          2e
+04/15/2025  10:19 AM    <DIR>          34
 04/14/2025  09:59 AM    <DIR>          37
-04/14/2025  10:21 AM    <DIR>          39
+04/14/2025  10:52 AM    <DIR>          39
+04/14/2025  10:52 AM    <DIR>          3e
+04/14/2025  10:52 AM    <DIR>          41
 04/14/2025  09:54 AM    <DIR>          42
 04/14/2025  09:54 AM    <DIR>          45
-04/14/2025  08:00 AM    <DIR>          46
+04/15/2025  10:19 AM    <DIR>          46
 04/14/2025  09:39 AM    <DIR>          48
-04/14/2025  08:01 AM    <DIR>          4c
+04/15/2025  01:11 PM    <DIR>          4c
 04/14/2025  09:56 AM    <DIR>          50
+04/15/2025  01:11 PM    <DIR>          52
+04/14/2025  10:52 AM    <DIR>          53
 04/14/2025  09:54 AM    <DIR>          54
-04/14/2025  09:50 AM    <DIR>          57
+04/14/2025  10:52 AM    <DIR>          56
+04/14/2025  10:52 AM    <DIR>          57
 04/14/2025  09:50 AM    <DIR>          5a
-04/14/2025  10:21 AM    <DIR>          64
-04/14/2025  07:58 AM    <DIR>          69
-04/14/2025  09:50 AM    <DIR>          6e
+04/15/2025  01:11 PM    <DIR>          64
+04/15/2025  01:11 PM    <DIR>          66
+04/14/2025  10:52 AM    <DIR>          69
+04/15/2025  09:58 AM    <DIR>          6a
+04/14/2025  10:52 AM    <DIR>          6e
+04/15/2025  10:19 AM    <DIR>          71
 04/14/2025  09:40 AM    <DIR>          74
 04/14/2025  09:56 AM    <DIR>          75
-04/14/2025  08:01 AM    <DIR>          82
+04/15/2025  09:54 AM    <DIR>          7c
+04/14/2025  10:52 AM    <DIR>          7d
+04/14/2025  10:52 AM    <DIR>          80
+04/14/2025  10:52 AM    <DIR>          82
 04/14/2025  09:57 AM    <DIR>          85
 04/14/2025  10:42 AM    <DIR>          88
+04/15/2025  01:11 PM    <DIR>          8b
+04/15/2025  01:11 PM    <DIR>          8e
 04/14/2025  09:59 AM    <DIR>          95
 04/14/2025  10:21 AM    <DIR>          98
 04/14/2025  07:58 AM    <DIR>          9a
@@ -138,30 +163,47 @@
 04/14/2025  07:58 AM    <DIR>          a0
 04/14/2025  09:39 AM    <DIR>          a3
 04/14/2025  09:52 AM    <DIR>          a4
+04/15/2025  09:54 AM    <DIR>          a6
+04/15/2025  01:11 PM    <DIR>          a7
+04/14/2025  10:52 AM    <DIR>          a9
 04/14/2025  09:01 AM    <DIR>          ad
+04/15/2025  01:11 PM    <DIR>          b0
+04/14/2025  10:52 AM    <DIR>          b1
 04/14/2025  09:01 AM    <DIR>          b3
-04/14/2025  10:29 AM    <DIR>          b4
-04/14/2025  09:40 AM    <DIR>          b6
+04/14/2025  10:52 AM    <DIR>          b4
+04/14/2025  10:52 AM    <DIR>          b6
 04/14/2025  09:59 AM    <DIR>          b9
+04/15/2025  09:54 AM    <DIR>          bc
 04/14/2025  08:01 AM    <DIR>          be
-04/14/2025  09:56 AM    <DIR>          bf
-04/14/2025  10:42 AM    <DIR>          c3
-04/14/2025  09:52 AM    <DIR>          ca
-04/14/2025  07:58 AM    <DIR>          cb
+04/14/2025  10:52 AM    <DIR>          bf
+04/14/2025  10:52 AM    <DIR>          c1
+04/15/2025  01:11 PM    <DIR>          c3
+04/14/2025  10:52 AM    <DIR>          c4
+04/14/2025  10:52 AM    <DIR>          c9
+04/14/2025  10:52 AM    <DIR>          ca
+04/15/2025  01:11 PM    <DIR>          cb
 04/14/2025  09:56 AM    <DIR>          cc
 04/14/2025  09:01 AM    <DIR>          d1
 04/14/2025  09:54 AM    <DIR>          d4
 04/14/2025  09:52 AM    <DIR>          d5
 04/14/2025  09:49 AM    <DIR>          d6
 04/14/2025  10:02 AM    <DIR>          db
-04/14/2025  09:59 AM    <DIR>          dc
+04/14/2025  10:52 AM    <DIR>          dc
+04/15/2025  01:11 PM    <DIR>          de
 04/14/2025  10:29 AM    <DIR>          e3
+04/14/2025  10:52 AM    <DIR>          e6
 04/14/2025  09:39 AM    <DIR>          ea
+04/14/2025  10:52 AM    <DIR>          ec
 04/14/2025  09:54 AM    <DIR>          ed
 04/14/2025  10:29 AM    <DIR>          ee
 04/14/2025  09:39 AM    <DIR>          ef
+04/14/2025  10:52 AM    <DIR>          f0
+04/14/2025  10:52 AM    <DIR>          f3
+04/14/2025  10:52 AM    <DIR>          f4
 04/14/2025  09:52 AM    <DIR>          f5
 04/14/2025  09:52 AM    <DIR>          f6
+04/14/2025  10:52 AM    <DIR>          f7
+04/15/2025  10:19 AM    <DIR>          fb
 04/14/2025  09:57 AM    <DIR>          fc
 04/11/2025  08:47 AM    <DIR>          info
 04/11/2025  08:47 AM    <DIR>          pack
@@ -170,49 +212,78 @@
  Directory of C:\Code\git\LiftOCR\.git\objects\00
 
 04/14/2025  10:02 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  10:02 AM               640 a13da4cfdb065261b7dcbd47a93f3c14dbc883
                1 File(s)            640 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\03
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM                69 cbf37681fccacd232c48eed67d6202b61965a2
+               1 File(s)             69 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\09
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM                58 bcb8bf993b15c8bda7e0c81dd5f112a66e18b6
+               1 File(s)             58 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\0a
+
+04/15/2025  01:11 PM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  01:11 PM               500 23e61e4e6eb615ad5c45b4765540b7c4a714a7
+               1 File(s)            500 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\0b
 
 04/14/2025  09:50 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:50 AM                77 71f39dd1d0ae2b105cc03183ff9d3b178a2a7f
                1 File(s)             77 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\0c
 
 04/14/2025  09:56 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:56 AM               305 eab7635d8cce10f8b547aba93ec1985c2ddf81
                1 File(s)            305 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\0f
 
-04/14/2025  09:39 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM               119 22b1faf5c9c7a72b031c45b1319c03e185cd1d
 04/14/2025  09:39 AM                46 8d2f5f75e3c9aa23964b19fa885284f01c7344
-               1 File(s)             46 bytes
+               2 File(s)            165 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\11
 
 04/14/2025  09:40 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:40 AM               305 79f847cc9ca4ec3bc5449fd52f38ddcb8cd656
                1 File(s)            305 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\13
 
 04/14/2025  09:54 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:54 AM               118 7af18ecd8ccf27bd0681d7ca3f8f746cacdff7
                1 File(s)            118 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\14
+
+04/15/2025  09:58 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  09:58 AM             1,002 62fdc2fe788521afb54ab9700ad3fb72e89cbb
+               1 File(s)          1,002 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\15
 
 04/14/2025  10:02 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  10:02 AM               305 3530d2ca541238dbd87c3dc1da2c3b8b10b66e
 04/14/2025  09:49 AM               834 684f6e574c505992bba92013836a19a57b1bd4
                2 File(s)          1,139 bytes
@@ -220,148 +291,237 @@
  Directory of C:\Code\git\LiftOCR\.git\objects\16
 
 04/14/2025  09:49 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:49 AM               305 76fac6a9d1dea31428e7a0b45294bc803da485
                1 File(s)            305 bytes
 
+ Directory of C:\Code\git\LiftOCR\.git\objects\18
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM               251 09ef82a7d0ec96a591886ec62096bea6c95c5e
+               1 File(s)            251 bytes
+
  Directory of C:\Code\git\LiftOCR\.git\objects\1a
 
-04/14/2025  09:50 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM               100 7bab1448fa024ad8783e3999f89370b485985c
 04/14/2025  09:50 AM                52 81e10ccb9b629f8aed1de1dcd0b546cac3cf8a
-               1 File(s)             52 bytes
+               2 File(s)            152 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\1c
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM                37 3b4db55ab8904043584ddb62e1d81099d45145
+               1 File(s)             37 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\1d
 
-04/14/2025  08:01 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  08:01 AM                46 86272bf1fe08274ec683fc8020d0f9f966f423
-               1 File(s)             46 bytes
+04/14/2025  10:52 AM               135 e4c1c2332dfea2db2dd3c907229499af6ac237
+               2 File(s)            181 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\25
 
 04/14/2025  09:50 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:50 AM               209 2261ba14ece203306a5ba800cf273f9bee45bd
                1 File(s)            209 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\27
 
-04/14/2025  09:56 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM             1,273 9a478ace151880cd5d12748e861327fbf87fa6
 04/14/2025  09:56 AM                77 c662118aa6d515bf4b39c2a75bf550043897fb
-               1 File(s)             77 bytes
+               2 File(s)          1,350 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\2e
 
-04/14/2025  09:57 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  01:11 PM                56 06799c1c238c3498176a03b11790a75a7df73e
 04/14/2025  09:57 AM               324 68e2e3f6371650a746ac74c5ca5aacb0e534e8
-               1 File(s)            324 bytes
+               2 File(s)            380 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\34
+
+04/15/2025  10:19 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  10:19 AM               470 23ad892afbbf7acd95354bb79df2c47df29cca
+               1 File(s)            470 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\37
 
 04/14/2025  09:59 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:59 AM               216 868597325381c16caa93fc3b3d6a4dc01fcf61
                1 File(s)            216 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\39
 
-04/14/2025  10:21 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM             1,006 2cecd84ff72891102ae58aa39c62b4d7a50453
 04/14/2025  10:21 AM               359 691b4ac9cbbfb3808f1b018321f332812522f6
-               1 File(s)            359 bytes
+               2 File(s)          1,365 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\3e
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM               210 a59365b1c03ddf48d0a6daaa4816f9683cc0bf
+               1 File(s)            210 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\41
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM               402 7b997538c376f3fe644432c0e3f2991cb5f82e
+               1 File(s)            402 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\42
 
 04/14/2025  09:54 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:54 AM               785 05d86914235665863aa34cc37dc44841088183
                1 File(s)            785 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\45
 
 04/14/2025  09:54 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:54 AM               212 dbef3de9fff03fcee3d0bb2927175926eec8da
                1 File(s)            212 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\46
 
-04/14/2025  08:00 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  10:19 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  08:00 AM                31 28c94bff0e5cab1c182b209df970ab630e8e55
-               1 File(s)             31 bytes
+04/15/2025  10:19 AM               227 81cca8110278dece5e840179770e883f5cf0e1
+               2 File(s)            258 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\48
 
 04/14/2025  09:39 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:39 AM                59 9f2d3bb454a862c84bc3c99b0a57071e80497b
                1 File(s)             59 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\4c
 
-04/14/2025  08:01 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM               124 01c8159961acb8a0ece03c4cba59cf446cef8c
+04/15/2025  01:11 PM               628 140e8d189737b16e39b26dc63ec2a424e0629f
 04/14/2025  08:01 AM                51 144b76b6abba37c2250f487c2f1bf5a93c4e25
-               1 File(s)             51 bytes
+               3 File(s)            803 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\50
 
 04/14/2025  09:56 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:56 AM               214 cd35744ccf9d1d2e72f1985ef478b51ace83c7
                1 File(s)            214 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\52
+
+04/15/2025  01:11 PM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  01:11 PM               153 6bff1df94cdc718838c8b5f92711ec49a8f4bb
+               1 File(s)            153 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\53
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM               131 84907ee52a4da6eaebd9b661fb2f9be60e8039
+               1 File(s)            131 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\54
 
 04/14/2025  09:54 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:54 AM                55 04856045f2effd2194bb898cfc9c7eee4e688b
                1 File(s)             55 bytes
 
+ Directory of C:\Code\git\LiftOCR\.git\objects\56
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM               153 db16ca15369e878173caf5446a765f88f4edcd
+               1 File(s)            153 bytes
+
  Directory of C:\Code\git\LiftOCR\.git\objects\57
 
-04/14/2025  09:50 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:50 AM               305 0e53a6e2bc6e8a027cbafdbf36bf915915acc6
-               1 File(s)            305 bytes
+04/14/2025  10:52 AM               134 6b5725b22c0754b528a765b176f53b21d89a51
+               2 File(s)            439 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\5a
 
 04/14/2025  09:50 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:50 AM               521 e480cb99f67707162978b9fa96e30d95962892
                1 File(s)            521 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\64
 
-04/14/2025  10:21 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  10:21 AM               304 8f2577bf839a60335f8bebb39247ee4e1c8efc
+04/15/2025  01:11 PM               123 bcc2a04a70d93bb2f303df60a1cf16b3202ff8
 04/14/2025  09:57 AM               176 f3bf3bc24d2d7b8711bae4404d5c4f8f139b03
-               2 File(s)            480 bytes
+               3 File(s)            603 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\66
+
+04/15/2025  01:11 PM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  01:11 PM               251 3cf5337456265785abc9fa91c02a6aa1ea35fa
+               1 File(s)            251 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\69
 
-04/14/2025  07:58 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  07:58 AM                49 5fbce5c6d4b4302ee4ba1f614ad75e1d7febd7
-               1 File(s)             49 bytes
+04/14/2025  10:52 AM               126 75b82a66de0df44c1b215fa2ae6fad61bdeed8
+               2 File(s)            175 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\6a
+
+04/15/2025  09:58 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  09:58 AM               470 13ec3c3537f03c673a8d7b922269149d03b1fa
+               1 File(s)            470 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\6e
 
-04/14/2025  09:50 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM           285,803 8f0f250f874579ae6e997a5f5080b7d846f9c7
 04/14/2025  09:50 AM                53 eb8ca4f0af593fb364faeb37d29044291249f7
-               1 File(s)             53 bytes
+               2 File(s)        285,856 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\71
+
+04/15/2025  10:19 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  10:19 AM               488 dbaeb2c75af0eeacf78aad3ab3a30e7184f463
+               1 File(s)            488 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\74
 
 04/14/2025  09:40 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  07:58 AM               139 43fb6e7c77513087564c5acf1075b062823300
 04/14/2025  09:40 AM                56 7d597c7fbcb9299c1227443dde280b4f7ded8f
                2 File(s)            195 bytes
@@ -369,21 +529,43 @@
  Directory of C:\Code\git\LiftOCR\.git\objects\75
 
 04/14/2025  09:56 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:56 AM               146 7908440be23d92d0cfd9c1194c491f35d40eed
                1 File(s)            146 bytes
 
+ Directory of C:\Code\git\LiftOCR\.git\objects\7c
+
+04/15/2025  09:54 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  09:54 AM               215 271d90e1d1bd8fc5461d0ab9ba7908900d56b1
+               1 File(s)            215 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\7d
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM               133 69bc825767584d7595bef97553b3b6a8e82d9f
+               1 File(s)            133 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\80
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM               124 b91fbe80e5f123bf960429686176c2695afb19
+               1 File(s)            124 bytes
+
  Directory of C:\Code\git\LiftOCR\.git\objects\82
 
-04/14/2025  08:01 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  08:01 AM                61 535521216342c7b67c05d1065ebcf06a8a0c0b
-               1 File(s)             61 bytes
+04/14/2025  10:52 AM                98 df62519456c4072bbaadf7417ab130c2582c80
+               2 File(s)            159 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\85
 
 04/14/2025  09:57 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:57 AM               305 7872122fcc692b5c0d7f5488f249532bab152a
 04/14/2025  07:58 AM                48 cb45aa2ee3e3da4f22666e701e37d2ecb67386
 04/14/2025  09:57 AM                52 f63c4c036f6aed70bfb6a6c7afc2ace1ef82f1
@@ -392,152 +574,240 @@
  Directory of C:\Code\git\LiftOCR\.git\objects\88
 
 04/14/2025  10:42 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  10:42 AM               204 0861afae428198fc3ae50f8b9290cc4ad56adc
                1 File(s)            204 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\8b
+
+04/15/2025  01:11 PM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM                16 137891791fe96927ad78e64b0aad7bded08bdc
+04/14/2025  10:52 AM               103 81232f3949a6a7d37b53789a0a31222e4e7115
+04/15/2025  01:11 PM               223 a998fbc59a6968b8a391d02df1b13a08eb8bb4
+               3 File(s)            342 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\8e
+
+04/15/2025  01:11 PM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  01:11 PM               695 c91642b205588e6839c7e727073e39b3b936f8
+               1 File(s)            695 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\95
 
 04/14/2025  09:59 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:59 AM                51 875b8fa34e87a4183ad4569399d87e6e58d623
                1 File(s)             51 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\98
 
 04/14/2025  10:21 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  10:21 AM               207 44b34471bda8fd2be9ca05c855dfd2b7767f7a
                1 File(s)            207 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\9a
 
 04/14/2025  07:58 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  07:58 AM                48 56abe2d0e9007efb201b6ddb81210df29409fe
                1 File(s)             48 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\9b
 
 04/14/2025  10:42 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  10:42 AM               304 279290752396b20c116bcc3df3c4342c3f5690
                1 File(s)            304 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\a0
 
 04/14/2025  07:58 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  07:58 AM                50 6bef1e643798621286dc5a2efc8f02ccf60323
                1 File(s)             50 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\a3
 
 04/14/2025  09:39 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:39 AM               306 2ff3ea01ab3b47e74688ccad16636d5ae9f76c
                1 File(s)            306 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\a4
 
 04/14/2025  09:52 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:52 AM                77 e8f7e457b69809592729a7c6797aebb79bf076
                1 File(s)             77 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\a6
+
+04/15/2025  09:54 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  09:54 AM             1,184 9c86850deb486fa9fbbd1f0ad297cbeea714f1
+               1 File(s)          1,184 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\a7
+
+04/15/2025  01:11 PM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  01:11 PM                61 e873f94b4dbe74e65ae865468162b0a6dd9e38
+               1 File(s)             61 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\a9
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM                86 7b2701330f7e7d4ad1d06faea7afe74848f2e7
+               1 File(s)             86 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\ad
 
 04/14/2025  09:01 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:01 AM               212 d3cd7ca5e2ca8f43704067425bdffa0b898318
                1 File(s)            212 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\b0
+
+04/15/2025  01:11 PM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  01:11 PM             1,306 0bd3d90c4a5faef9f7a1422679ae7ee1b80bad
+               1 File(s)          1,306 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\b1
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM                19 28a522a497467def6a2ad41cf17748b511342f
+               1 File(s)             19 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\b3
 
 04/14/2025  09:01 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:01 AM               306 4e7be5fc00f39cd28bd7bb127c1e85b638151c
                1 File(s)            306 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\b4
 
-04/14/2025  10:29 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  10:29 AM                41 21418899b90071b3084a3a89232e011179e40b
+04/14/2025  10:52 AM                69 514803a62012b8f199110a93a07edd43381ea1
 04/14/2025  10:02 AM                61 795482f7b96539299e1619119d6e1c5e647c45
-               2 File(s)            102 bytes
+04/14/2025  10:52 AM             6,062 a51a26e006f9a2518028019aadcd3227910d88
+               4 File(s)          6,233 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\b6
 
-04/14/2025  09:40 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:40 AM               211 36a8e76702dab26dfeba0f2f4bee1a1772198c
-               1 File(s)            211 bytes
+04/14/2025  10:52 AM               101 f1bbf118256e54306edf2b8c6e210859c20952
+               2 File(s)            312 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\b9
 
 04/14/2025  09:59 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:59 AM               305 aed313d54b2cbf7f082aa978e74bb2b2e673f6
                1 File(s)            305 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\bc
+
+04/15/2025  09:54 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  09:54 AM               432 f4eb7e42cc76610dc52efa5e3fbe25f78b77c1
+               1 File(s)            432 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\be
 
 04/14/2025  08:01 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  08:01 AM                56 9a2b642ed15be862c119a9471244d78ce7ec51
                1 File(s)             56 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\bf
 
-04/14/2025  09:56 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM               688 7d0e8f9cf39b1ab31f14e759edb1c13c64daef
 04/14/2025  09:56 AM                53 a82d65386fad3aa478b62492d5f500faf83deb
 04/14/2025  09:52 AM               216 e5c1de1b37bf6b2446ce713466c0811abe3236
-               2 File(s)            269 bytes
+               3 File(s)            957 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\c1
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM               102 2762f4a03cb71d90c3bd6833374a0fa3f528a6
+               1 File(s)            102 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\c3
 
-04/14/2025  10:42 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  01:11 PM                78 2789a36f8e72728a1c8563efdef61b9666c3b1
 04/14/2025  09:57 AM                77 55313877233732463625fcb43bb9762536c0e1
 04/14/2025  10:42 AM             1,492 aa279d2f0dedef932c2664c97ecd8521cda952
 04/14/2025  07:58 AM               110 d844944bde0f3ead5a3c53b3eb2811ca70acb8
 04/14/2025  07:58 AM                67 e60ae3753062cf61621b206c4bc043ff3ed8dd
-               4 File(s)          1,746 bytes
+               5 File(s)          1,824 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\c4
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM                97 8a0ffb09a5568cea48e06703ae7e80b37eef47
+               1 File(s)             97 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\c9
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM             2,412 26303073d0bbfba7f6de8f3dd3fbb1823510c9
+04/14/2025  10:52 AM                85 81043bb88454bd9a755d76b482564f2c9e1259
+               2 File(s)          2,497 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\ca
 
-04/14/2025  09:52 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:52 AM                84 528eaac9fd00dae5ed77e3f645d988f78a2800
-               1 File(s)             84 bytes
+04/14/2025  10:52 AM                71 e6c2ca7ec51bb90cb08f18324640f42410a98f
+               2 File(s)            155 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\cb
 
-04/14/2025  07:58 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  07:58 AM               146 4023f057e17784c6849e92ac552e3dfc20fd89
-               1 File(s)            146 bytes
+04/15/2025  09:58 AM               219 6f38016d99a45fbc273a913bcdd87b359493ff
+04/15/2025  01:11 PM                60 b9a5e1ac4750b11e8b676bb862127a43ce9691
+               3 File(s)            425 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\cc
 
 04/14/2025  09:56 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:56 AM               345 fb8d48198e9b1283bbda8454d61368f29dbaad
                1 File(s)            345 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\d1
 
 04/14/2025  09:01 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:01 AM             1,323 e7bc3fbc8c123181cbd50dce4118afa2f44bbd
                1 File(s)          1,323 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\d4
 
 04/14/2025  09:54 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  08:01 AM               173 092a33b64ffafa65e1a56079f6a163ffa131ed
 04/14/2025  09:54 AM               305 23e0b7c8e329ba7291afad5b5fbc89bd9156d7
                2 File(s)            478 bytes
@@ -545,7 +815,7 @@
  Directory of C:\Code\git\LiftOCR\.git\objects\d5
 
 04/14/2025  09:52 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:52 AM               518 379fb18ea47c31c479359e815166a535791d43
 04/14/2025  09:40 AM               405 af8865ba93c09dc44928e72c54ca7114573863
                2 File(s)            923 bytes
@@ -553,78 +823,137 @@
  Directory of C:\Code\git\LiftOCR\.git\objects\d6
 
 04/14/2025  09:49 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:49 AM               214 d15180e38867b7be4ca34c31008114e73c8a92
                1 File(s)            214 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\db
 
 04/14/2025  10:02 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  10:02 AM               202 d5928e442e3a77cd216df42efc913a042acd1c
                1 File(s)            202 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\dc
 
-04/14/2025  09:59 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:59 AM               962 4d75a5092aacc2b969aaa98d8d8e2a2f5dfc2e
-               1 File(s)            962 bytes
+04/14/2025  10:52 AM               221 5f26a410a7ceed6bbc07480f01cf431c862d50
+               2 File(s)          1,183 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\de
+
+04/15/2025  01:11 PM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  01:11 PM               929 774310369123f6ca3275e802c9b3fb0b6f5beb
+04/15/2025  01:11 PM               397 bcc23a1061918fd30a6cda1ecf2757f42515e1
+               2 File(s)          1,326 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\e3
 
 04/14/2025  10:29 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  10:29 AM               304 040d5d2f94dad810f72b7e654aa7341b312746
                1 File(s)            304 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\e6
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM                15 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+               1 File(s)             15 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\ea
 
 04/14/2025  09:39 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:39 AM               215 7c16a0ac95f9da13b4f96a83c024702b5dfed1
 04/14/2025  08:01 AM                59 9272fdf289f8b380691302f1382e75e0dae777
                2 File(s)            274 bytes
 
+ Directory of C:\Code\git\LiftOCR\.git\objects\ec
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM               301 e46fe9353971a7ec6ac4bc421b54a07b1054cb
+               1 File(s)            301 bytes
+
  Directory of C:\Code\git\LiftOCR\.git\objects\ed
 
 04/14/2025  09:54 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:54 AM                77 7eb616590f2e37af7b2acf83e6f0fb9aab3aa3
                1 File(s)             77 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\ee
 
 04/14/2025  10:29 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  10:29 AM               205 3d1c3f24973dfd59c69f7692fc9501f77ec15d
                1 File(s)            205 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\ef
 
 04/14/2025  09:39 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:39 AM               659 b8d4629d1bd29677d856a36260429d7be43a36
                1 File(s)            659 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\f0
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM               196 8ff6ed65ad4f3ad403d4cbf9a701ddf74523d9
+               1 File(s)            196 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\f3
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM             1,051 3ab69d09a17e57879fdde1761facca5162c210
+               1 File(s)          1,051 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\f4
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM             1,808 ce436f227dba727f4e4c032f2c91fcfe64cb90
+               1 File(s)          1,808 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\f5
 
 04/14/2025  09:52 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:52 AM                55 cf95ae6a546a102d75c5da0dad5cbd8c11379a
                1 File(s)             55 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\f6
 
 04/14/2025  09:52 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:52 AM               305 d839e3c08f247eb95e48fce61b7e227c72edc8
                1 File(s)            305 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\f7
+
+04/14/2025  10:52 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/14/2025  10:52 AM               123 f90cce5ecda088041eb8c1b6f9412a138990ba
+               1 File(s)            123 bytes
+
+ Directory of C:\Code\git\LiftOCR\.git\objects\fb
+
+04/15/2025  10:19 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          ..
+04/15/2025  10:19 AM                56 0658b21acd9bf98215882ab264dac4d85b3a18
+04/14/2025  10:52 AM               126 2c91babfc8adae2a5318e0d81cd246c52268e8
+               2 File(s)            182 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\fc
 
 04/14/2025  09:57 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
 04/14/2025  09:57 AM               210 ab225863c796020e350c3e552f4e5e36fe9d23
 04/14/2025  08:01 AM               305 af1feb7c211b29acd39c446188498a4ce3c6da
                2 File(s)            515 bytes
@@ -632,42 +961,42 @@
  Directory of C:\Code\git\LiftOCR\.git\objects\info
 
 04/11/2025  08:47 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
                0 File(s)              0 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\objects\pack
 
 04/11/2025  08:47 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          ..
+04/15/2025  01:11 PM    <DIR>          ..
                0 File(s)              0 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\refs
 
 04/14/2025  08:02 AM    <DIR>          .
-04/14/2025  10:42 AM    <DIR>          heads
+04/15/2025  01:11 PM    <DIR>          heads
 04/14/2025  08:02 AM    <DIR>          remotes
 04/11/2025  08:47 AM    <DIR>          tags
                0 File(s)              0 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\refs\heads
 
-04/14/2025  10:42 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          .
 04/14/2025  08:02 AM    <DIR>          ..
-04/14/2025  10:42 AM                41 main
+04/15/2025  01:11 PM                41 main
                1 File(s)             41 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\refs\remotes
 
 04/14/2025  08:02 AM    <DIR>          .
 04/14/2025  08:02 AM    <DIR>          ..
-04/14/2025  10:42 AM    <DIR>          origin
+04/15/2025  01:11 PM    <DIR>          origin
                0 File(s)              0 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\refs\remotes\origin
 
-04/14/2025  10:42 AM    <DIR>          .
+04/15/2025  01:11 PM    <DIR>          .
 04/14/2025  08:02 AM    <DIR>          ..
-04/14/2025  10:42 AM                41 main
+04/15/2025  01:11 PM                41 main
                1 File(s)             41 bytes
 
  Directory of C:\Code\git\LiftOCR\.git\refs\tags
@@ -679,7 +1008,7 @@
  Directory of C:\Code\git\LiftOCR\.pytest_cache
 
 04/14/2025  10:08 AM    <DIR>          .
-04/14/2025  10:47 AM    <DIR>          ..
+04/15/2025  03:13 PM    <DIR>          ..
 04/14/2025  10:08 AM                39 .gitignore
 04/14/2025  10:08 AM               191 CACHEDIR.TAG
 04/14/2025  10:08 AM               310 README.md
@@ -697,133 +1026,218 @@
 
 04/14/2025  10:08 AM    <DIR>          .
 04/14/2025  10:08 AM    <DIR>          ..
-04/14/2025  10:08 AM                53 lastfailed
-04/14/2025  10:46 AM                47 nodeids
-04/14/2025  10:46 AM                 2 stepwise
-               3 File(s)            102 bytes
+04/14/2025  10:50 AM                 2 lastfailed
+04/14/2025  10:50 AM                47 nodeids
+04/14/2025  10:50 AM                 2 stepwise
+               3 File(s)             51 bytes
 
  Directory of C:\Code\git\LiftOCR\config
 
-04/14/2025  09:40 AM    <DIR>          .
-04/14/2025  10:47 AM    <DIR>          ..
-04/14/2025  09:40 AM               744 config.yaml
-               1 File(s)            744 bytes
+04/15/2025  04:21 PM    <DIR>          .
+04/15/2025  03:13 PM    <DIR>          ..
+04/15/2025  04:21 PM             1,212 config.yaml
+               1 File(s)          1,212 bytes
 
  Directory of C:\Code\git\LiftOCR\data
 
 04/14/2025  10:06 AM    <DIR>          .
-04/14/2025  10:47 AM    <DIR>          ..
+04/15/2025  03:13 PM    <DIR>          ..
 04/14/2025  10:06 AM           323,529 test_image.jpg
                1 File(s)        323,529 bytes
+
+ Directory of C:\Code\git\LiftOCR\docs
+
+04/15/2025  10:49 AM    <DIR>          .
+04/15/2025  03:13 PM    <DIR>          ..
+04/15/2025  01:31 PM             2,988 architecture.md
+               1 File(s)          2,988 bytes
 
  Directory of C:\Code\git\LiftOCR\gui
 
 04/14/2025  09:59 AM    <DIR>          .
-04/14/2025  10:47 AM    <DIR>          ..
+04/15/2025  03:13 PM    <DIR>          ..
 04/14/2025  09:59 AM             2,241 app.py
                1 File(s)          2,241 bytes
 
  Directory of C:\Code\git\LiftOCR\LiftOCR.egg-info
 
-04/14/2025  10:46 AM    <DIR>          .
-04/14/2025  10:47 AM    <DIR>          ..
-04/14/2025  10:46 AM                 1 dependency_links.txt
-04/14/2025  10:46 AM               501 PKG-INFO
-04/14/2025  10:46 AM                21 requires.txt
-04/14/2025  10:46 AM               195 SOURCES.txt
-04/14/2025  10:46 AM                 1 top_level.txt
-               5 File(s)            719 bytes
+04/14/2025  10:50 AM    <DIR>          .
+04/15/2025  03:13 PM    <DIR>          ..
+04/14/2025  10:50 AM                 1 dependency_links.txt
+04/14/2025  10:50 AM               501 PKG-INFO
+04/14/2025  10:50 AM                21 requires.txt
+04/14/2025  10:50 AM               560 SOURCES.txt
+04/14/2025  10:50 AM                 4 top_level.txt
+               5 File(s)          1,087 bytes
 
  Directory of C:\Code\git\LiftOCR\ocr
 
-04/14/2025  10:45 AM    <DIR>          .
-04/14/2025  10:47 AM    <DIR>          ..
-04/14/2025  09:39 AM    <DIR>          core
-04/14/2025  10:45 AM    <DIR>          modules
+04/14/2025  10:50 AM    <DIR>          .
+04/15/2025  03:13 PM    <DIR>          ..
+04/15/2025  02:41 PM    <DIR>          core
+04/15/2025  01:44 PM    <DIR>          modules
 04/12/2025  10:31 AM    <DIR>          plugins
-04/14/2025  10:44 AM                 0 _init_.py
+04/14/2025  10:44 AM                 0 __init__.py
+04/14/2025  10:50 AM    <DIR>          __pycache__
                1 File(s)              0 bytes
 
  Directory of C:\Code\git\LiftOCR\ocr\core
 
-04/14/2025  09:39 AM    <DIR>          .
-04/14/2025  10:45 AM    <DIR>          ..
-04/14/2025  09:39 AM             2,004 module_base.py
-               1 File(s)          2,004 bytes
+04/15/2025  02:41 PM    <DIR>          .
+04/14/2025  10:50 AM    <DIR>          ..
+04/15/2025  02:41 PM             1,888 module_base.py
+04/15/2025  02:41 PM    <DIR>          __pycache__
+               1 File(s)          1,888 bytes
+
+ Directory of C:\Code\git\LiftOCR\ocr\core\__pycache__
+
+04/15/2025  02:41 PM    <DIR>          .
+04/15/2025  02:41 PM    <DIR>          ..
+04/15/2025  02:41 PM             3,268 module_base.cpython-312.pyc
+               1 File(s)          3,268 bytes
 
  Directory of C:\Code\git\LiftOCR\ocr\modules
 
-04/14/2025  10:45 AM    <DIR>          .
-04/14/2025  10:45 AM    <DIR>          ..
-04/14/2025  10:45 AM    <DIR>          output
-04/14/2025  10:45 AM    <DIR>          postprocess
-04/14/2025  10:46 AM    <DIR>          preprocess
-04/14/2025  10:45 AM    <DIR>          recognize
-04/14/2025  10:45 AM    <DIR>          segment
-04/14/2025  10:44 AM                 0 _init_.py
+04/15/2025  01:44 PM    <DIR>          .
+04/14/2025  10:50 AM    <DIR>          ..
+04/15/2025  02:41 PM    <DIR>          output
+04/14/2025  10:50 AM    <DIR>          postprocess
+04/14/2025  10:50 AM    <DIR>          preprocess
+04/15/2025  02:26 PM    <DIR>          recognize
+04/14/2025  10:50 AM    <DIR>          segment
+04/14/2025  10:44 AM                 0 __init__.py
+04/14/2025  10:50 AM    <DIR>          __pycache__
                1 File(s)              0 bytes
 
  Directory of C:\Code\git\LiftOCR\ocr\modules\output
 
-04/14/2025  10:45 AM    <DIR>          .
-04/14/2025  10:45 AM    <DIR>          ..
+04/15/2025  02:41 PM    <DIR>          .
+04/15/2025  01:44 PM    <DIR>          ..
 04/14/2025  09:56 AM               584 text.py
-04/14/2025  10:44 AM                 0 _init_.py
+04/14/2025  10:44 AM                 0 __init__.py
+04/15/2025  02:41 PM    <DIR>          __pycache__
                2 File(s)            584 bytes
+
+ Directory of C:\Code\git\LiftOCR\ocr\modules\output\__pycache__
+
+04/15/2025  02:41 PM    <DIR>          .
+04/15/2025  02:41 PM    <DIR>          ..
+04/15/2025  02:41 PM             1,230 text.cpython-312.pyc
+04/15/2025  02:41 PM               147 __init__.cpython-312.pyc
+               2 File(s)          1,377 bytes
 
  Directory of C:\Code\git\LiftOCR\ocr\modules\postprocess
 
-04/14/2025  10:45 AM    <DIR>          .
-04/14/2025  10:45 AM    <DIR>          ..
+04/14/2025  10:50 AM    <DIR>          .
+04/15/2025  01:44 PM    <DIR>          ..
 04/14/2025  09:55 AM               655 basic.py
-04/14/2025  10:44 AM                 0 _init_.py
+04/14/2025  10:44 AM                 0 __init__.py
+04/14/2025  10:50 AM    <DIR>          __pycache__
                2 File(s)            655 bytes
+
+ Directory of C:\Code\git\LiftOCR\ocr\modules\postprocess\__pycache__
+
+04/14/2025  10:50 AM    <DIR>          .
+04/14/2025  10:50 AM    <DIR>          ..
+04/14/2025  10:50 AM             1,059 basic.cpython-312.pyc
+04/14/2025  10:50 AM               152 __init__.cpython-312.pyc
+               2 File(s)          1,211 bytes
 
  Directory of C:\Code\git\LiftOCR\ocr\modules\preprocess
 
-04/14/2025  10:46 AM    <DIR>          .
-04/14/2025  10:45 AM    <DIR>          ..
+04/14/2025  10:50 AM    <DIR>          .
+04/15/2025  01:44 PM    <DIR>          ..
 04/14/2025  09:50 AM             1,009 basic.py
-04/14/2025  10:44 AM                 0 _init_.py
+04/14/2025  10:44 AM                 0 __init__.py
+04/14/2025  10:50 AM    <DIR>          __pycache__
                2 File(s)          1,009 bytes
+
+ Directory of C:\Code\git\LiftOCR\ocr\modules\preprocess\__pycache__
+
+04/14/2025  10:50 AM    <DIR>          .
+04/14/2025  10:50 AM    <DIR>          ..
+04/14/2025  10:50 AM             1,563 basic.cpython-312.pyc
+04/14/2025  10:50 AM               151 __init__.cpython-312.pyc
+               2 File(s)          1,714 bytes
 
  Directory of C:\Code\git\LiftOCR\ocr\modules\recognize
 
-04/14/2025  10:45 AM    <DIR>          .
-04/14/2025  10:45 AM    <DIR>          ..
-04/14/2025  09:54 AM             1,977 template.py
-04/14/2025  10:44 AM                 0 _init_.py
-               2 File(s)          1,977 bytes
+04/15/2025  02:26 PM    <DIR>          .
+04/15/2025  01:44 PM    <DIR>          ..
+04/15/2025  02:26 PM             1,471 model.py
+04/14/2025  10:44 AM                 0 __init__.py
+04/15/2025  02:26 PM    <DIR>          __pycache__
+               2 File(s)          1,471 bytes
+
+ Directory of C:\Code\git\LiftOCR\ocr\modules\recognize\__pycache__
+
+04/15/2025  02:26 PM    <DIR>          .
+04/15/2025  02:26 PM    <DIR>          ..
+04/15/2025  02:26 PM             2,279 model.cpython-312.pyc
+04/14/2025  10:50 AM             3,040 template.cpython-312.pyc
+04/14/2025  10:50 AM               150 __init__.cpython-312.pyc
+               3 File(s)          5,469 bytes
 
  Directory of C:\Code\git\LiftOCR\ocr\modules\segment
 
-04/14/2025  10:45 AM    <DIR>          .
-04/14/2025  10:45 AM    <DIR>          ..
+04/14/2025  10:50 AM    <DIR>          .
+04/15/2025  01:44 PM    <DIR>          ..
 04/14/2025  09:51 AM             1,021 default.py
-04/14/2025  10:44 AM                 0 _init_.py
+04/14/2025  10:44 AM                 0 __init__.py
+04/14/2025  10:50 AM    <DIR>          __pycache__
                2 File(s)          1,021 bytes
+
+ Directory of C:\Code\git\LiftOCR\ocr\modules\segment\__pycache__
+
+04/14/2025  10:50 AM    <DIR>          .
+04/14/2025  10:50 AM    <DIR>          ..
+04/14/2025  10:50 AM             1,573 default.cpython-312.pyc
+04/14/2025  10:50 AM               148 __init__.cpython-312.pyc
+               2 File(s)          1,721 bytes
+
+ Directory of C:\Code\git\LiftOCR\ocr\modules\__pycache__
+
+04/14/2025  10:50 AM    <DIR>          .
+04/15/2025  01:44 PM    <DIR>          ..
+04/14/2025  10:50 AM               140 __init__.cpython-312.pyc
+               1 File(s)            140 bytes
 
  Directory of C:\Code\git\LiftOCR\ocr\plugins
 
 04/12/2025  10:31 AM    <DIR>          .
-04/14/2025  10:45 AM    <DIR>          ..
+04/14/2025  10:50 AM    <DIR>          ..
                0 File(s)              0 bytes
+
+ Directory of C:\Code\git\LiftOCR\ocr\__pycache__
+
+04/14/2025  10:50 AM    <DIR>          .
+04/14/2025  10:50 AM    <DIR>          ..
+04/14/2025  10:50 AM               132 __init__.cpython-312.pyc
+               1 File(s)            132 bytes
+
+ Directory of C:\Code\git\LiftOCR\output
+
+04/15/2025  02:59 PM    <DIR>          .
+04/15/2025  03:13 PM    <DIR>          ..
+04/15/2025  02:59 PM             1,949 test_image.txt
+04/15/2025  02:44 PM             1,946 test_image_old.txt
+               2 File(s)          3,895 bytes
 
  Directory of C:\Code\git\LiftOCR\tests
 
-04/14/2025  10:08 AM    <DIR>          .
-04/14/2025  10:47 AM    <DIR>          ..
-04/14/2025  10:02 AM             1,426 test_pipeline.py
-04/14/2025  10:08 AM    <DIR>          __pycache__
-               1 File(s)          1,426 bytes
+04/15/2025  01:04 PM    <DIR>          .
+04/15/2025  03:13 PM    <DIR>          ..
+04/15/2025  01:04 PM             1,600 test_pipeline.py
+               1 File(s)          1,600 bytes
 
- Directory of C:\Code\git\LiftOCR\tests\__pycache__
+ Directory of C:\Code\git\LiftOCR\tools
 
-04/14/2025  10:08 AM    <DIR>          .
-04/14/2025  10:08 AM    <DIR>          ..
-04/14/2025  10:08 AM             5,431 test_pipeline.cpython-312-pytest-8.3.5.pyc
-               1 File(s)          5,431 bytes
+04/15/2025  04:08 PM    <DIR>          .
+04/15/2025  03:13 PM    <DIR>          ..
+04/15/2025  04:07 PM             3,412 install_torch.py
+04/15/2025  04:08 PM             1,554 uninstall_torch.py
+               2 File(s)          4,966 bytes
 
      Total Files Listed:
-             138 File(s)        404,452 bytes
-             289 Dir(s)  694,187,593,728 bytes free
+             223 File(s)        752,721 bytes
+             430 Dir(s)  691,211,751,424 bytes free

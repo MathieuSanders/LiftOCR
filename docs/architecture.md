@@ -63,23 +63,48 @@ April 15, 2025 (During v0.2 Development)
 
 ---
 
-## Directory Layout (As of 2025-04-14)
+## Directory Layout (As of 2025-04-15)
 
 ```
 LiftOCR/
 ├── .git/
 ├── .pytest_cache/
 ├── config/
-│   └─ config.yaml
+│   └── config.yaml
 ├── data/
-│   └─ test_image.jpg
+│   └── test_image.jpg
 ├── docs/
-│   └─ architecture.md
+│   └── architecture.md
 ├── gui/
-│   └─ app.py
+│   └── app.py
 ├── LiftOCR.egg-info/
+├── main.py
 ├── ocr/
-│   
+│   ├── core/
+│   │   └── module_base.py
+│   ├── modules/
+│   │   ├── output/
+│   │   │   └── text.py
+│   │   ├── postprocess/
+│   │   │   └── basic.py
+│   │   ├── preprocess/
+│   │   │   └── basic.py
+│   │   ├── recognize/
+│   │   │   └── model.py
+│   └── segment/
+│       └── default.py
+├── output/
+├── requirements.txt
+├── setup.py
+├── tests/
+│   └── test_pipeline.py
+├── tools/
+│   ├── install_torch.py
+│   └── uninstall_torch.py
+├── README.md
+└── list.txt
+```
 
+---
 
 # END OF DOCUMENT

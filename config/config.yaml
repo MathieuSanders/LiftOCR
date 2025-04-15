@@ -1,27 +1,34 @@
 # config.yaml
 
-# This configuration file controls which modules are used
-# in each step of the LiftOCR pipeline.
-
-# Use full Python import paths to locate each class.
-# These paths are relative to the project root.
+# LiftOCR Configuration File
+# Controls which modules are used for each stage of the OCR pipeline.
+# All module paths must be valid Python import paths relative to the project root.
 
 # Preprocessing step
+# Cleans and prepares the input image (e.g., grayscale, thresholding)
 preprocessor: ocr.modules.preprocess.basic.BasicPreprocessor
 
 # Segmentation step
+# Splits the image into segments (e.g., lines or characters)
 segmenter: ocr.modules.segment.default.DefaultSegmenter
 
 # Recognition step
+# Performs OCR using a machine learning recognizer
+# Supported engines:
+# - easyocr: Recommended for general-purpose OCR (requires easyocr + torch)
+# - tesseract: Legacy-compatible (requires pytesseract + tesseract installed)
 recognizer: ocr.modules.recognize.model.ModelRecognizer
 recognizer_engine: easyocr  # Options: easyocr, tesseract
 
 # Postprocessing step
+# Cleans up the recognized text (e.g., normalize spacing)
 postprocessor: ocr.modules.postprocess.basic.BasicPostprocessor
 
 # Output step
+# Saves final OCR result as text file
 output: ocr.modules.output.text.TextOutput
-output_path: output/   # Folder to save OCR result .txt files
+output_path: output/  # Folder to save .txt output
 
-# Optional future configuration options
+# Logging level
+# Options: DEBUG, INFO, WARNING, ERROR
 log_level: INFO
